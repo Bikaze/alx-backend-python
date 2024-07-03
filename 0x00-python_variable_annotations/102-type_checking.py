@@ -7,7 +7,7 @@ elements in a tuple by a specified factor.
 from typing import List, Tuple
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Replicates each element in a tuple by a specified factor.
 
