@@ -1,2 +1,4 @@
 gitd
 cx
+*.pyc
+__pycache__
