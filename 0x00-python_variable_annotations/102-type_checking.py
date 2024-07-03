@@ -4,10 +4,10 @@ This module provides a function `zoom_array` that replicates
 elements in a tuple by a specified factor.
 """
 
-from typing import List, Tuple, Union
+from typing import List, Tuple
 
 
-def zoom_array(lst: Union[List[int], Tuple[int, ...]],
+def zoom_array(lst: Tuple[int],
                factor: int = 2) -> List[int]:
     """
     Replicates each element in a tuple by a specified factor.
