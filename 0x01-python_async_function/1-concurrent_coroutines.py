@@ -1,6 +1,4 @@
-import asyncio
-from typing import List
-
+#!/usr/bin/env python3
 # This module demonstrates an asynchronous approach to spawning tasks with
 # variable delays.
 #
@@ -9,6 +7,8 @@ from typing import List
 # a way that they do not need to be sorted post-completion, as they are
 # handled concurrently and collected in the order they finish.
 
+import asyncio
+from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
