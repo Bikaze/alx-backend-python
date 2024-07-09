@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-# This module demonstrates an asynchronous approach to spawning tasks with
-# variable delays.
-#
-# The primary function, `wait_n`, asynchronously waits for a specified number
-# of tasks, each with a random delay, to complete. The delays are generated in
-# a way that they do not need to be sorted post-completion, as they are
-# handled concurrently and collected in the order they finish.
+"""
+This module demonstrates an asynchronous approach to spawning tasks with
+variable delays.
+
+The primary function, `wait_n`, asynchronously waits for a specified number
+of tasks, each with a random delay, to complete. The delays are generated in
+a way that they do not need to be sorted post-completion, as they are
+handled concurrently and collected in the order they finish.
+"""
 
 import asyncio
 from typing import List
