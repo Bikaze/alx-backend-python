@@ -53,7 +53,8 @@ class TestAccessNestedMap(unittest.TestCase):
         ("http://example.com", {"payload": True}),
         ("http://holberton.io", {"payload": False})
     ])
-    def test_get_json(self, test_url: str, test_payload: Dict[str, Any]) -> None:
+    def test_get_json(self, test_url: str,
+                      test_payload: Dict[str, Any]) -> None:
         """
         Test get_json returns the expected result.
 
